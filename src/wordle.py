@@ -17,7 +17,7 @@ def calculate(lines):
     xd = list({k: v for k, v in sorted(d.items(), key=lambda item: item[1])})
     xd = xd[-9:]
     for i in xd:
-        print(i)
+        print(i, d[i])
     print("------------------")
     print(a)
     print("Type !q to quit")
@@ -45,6 +45,8 @@ def cheat(lines, a, word):
             if word[i] != j[i] and word[i] != "_" and word[i].islower():
                 del_list.add(j)
             elif word[i].isupper() and word[i].lower() == j[i]:
+                del_list.add(j)
+            elif word[i] != a[i] and j[i] == a[i]:
                 del_list.add(j)
         for i in del_list:
             lines.remove(i)

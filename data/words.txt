@@ -4651,7 +4651,6 @@ sprue
 flams
 molto
 dieth
-choos
 miked
 bronx
 goopy
@@ -4706,7 +4705,6 @@ blowy
 wahoo
 lubra
 mecum
-whooo
 coqui
 sabra
 edema
