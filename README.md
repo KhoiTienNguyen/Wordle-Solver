@@ -13,4 +13,3 @@ Only `data/words.txt` is needed to run.
 
 # To do
 - Add more words
-- Improve filtering when the word contains multiple of one letter
